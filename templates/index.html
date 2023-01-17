@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/index.css') }}"
+    />
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+    />
+
     <title>Template</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
-        <img id="vercel-logo" src="{{ url_for('static', filename='vercel.svg') }}" alt="Vercel Logo" width="200" height="200">
+      <img
+        id="vercel-logo"
+        src="{{ url_for('static', filename='vercel.svg') }}"
+        alt="Vercel Logo"
+        width="200"
+        height="200"
+      />
     </a>
-    
+
     <div id="example_div">
+      <h1 class="desktop">Very simple template using Flask and Vercel</h1>
 
-        <h1 class="desktop">
-            Very simple template using Flask and Vercel
-        </h1>
+      <h1 class="mobile">Flask + Vercel Template</h1>
 
-        <h1 class="mobile">
-            Flask + Vercel Template
-        </h1>
+      <p class="mobile">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
 
-        <p class="mobile">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-
-        <p class="desktop">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
+      <p class="desktop">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
     </div>
 
     <footer>
-        <p>
-            <a href="https://github.com/jjoeldaniel/vercel-flask" target="_blank" rel="noopener noreferrer">Source Code</a>
-            <br>
-            Made with ❤️ by <a href="https://github.com/jjoeldaniel" target="_blank" rel="noopener noreferrer">jjoeldaniel</a>
-        </p>
+      <p>
+        <a
+          href="https://github.com/jjoeldaniel/vercel-flask"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Source Code</a
+        >
+        <br />
+        Made with ❤️ by
+        <a
+          href="https://github.com/jjoeldaniel"
+          target="_blank"
+          rel="noopener noreferrer"
+          >jjoeldaniel</a
+        >
+      </p>
     </footer>
-    
-</body>
+  </body>
 </html>
