@@ -4,8 +4,8 @@
 
 ## How to Deploy
 
-1. Use this template by clicking "Use this template" button above
-2. Deploy your new project to Vercel
+1. Use this template by clicking "Use this template" button above or [click here](https://github.com/jjoeldaniel/vercel-flask/generate)
+2. Deploy your new project to [Vercel](https://vercel.com/new)
 
 ## How to Run Locally
 
