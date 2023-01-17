@@ -1,42 +1,61 @@
 body {
     background-color: #b1afae;
-}
-#vercel-logo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: scale(0.5);
-}
-#example_div {
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    margin: 0 auto; 
-    margin-top: 20vh;
-    border: none;
-    max-width: 800px;
     color: white;
 }
-h1 {
-    font-size: 75px;
-    font-weight: bolder;
-    align-self: center;
+
+@media (min-width: 769px) {
+    #vercel-logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: scale(0.5);
+    }
+    #example_div {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        margin: 0 auto; 
+        margin-top: 20vh;
+        border: none;
+        max-width: 800px;
+    }
+    #example_div h1 {
+        font-size: 75px;
+        font-weight: bolder;
+        align-self: center;
+    }
+    #example_div p {
+        font-size: 20px;
+        font-weight: lighter;
+        align-self: center;
+        margin-top: 30px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 800px;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+    }
 }
-p {
-    font-size: 20px;
-    font-weight: lighter;
-    align-self: center;
-    margin-top: 30px;
-}
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-width: 800px;
-    color: white;
-    font-size: 12px;
-    font-weight: lighter;
-    text-align: center;
+
+@media (max-width: 768px) {
+    #vercel-logo {
+        display: none;
+    }
+    #example_div h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    #example_div p {
+        display: none;
+    }
+    footer {
+        text-align: center;
+        font-size: 12px;
+    }
 }
