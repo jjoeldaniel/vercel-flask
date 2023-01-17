@@ -10,7 +10,26 @@
 ## How to Run Locally
 
 1. Install Python 3.7 or later
-2. Create a virtual environment: ```python3 -m venv venv```
-3. Activate the virtual environment: ```venv/scripts/activate```
-4. Install dependencies: ```pip install -r requirements.txt```
-5. Run the app: ```flask --app api/index.py run```
+2. Create a virtual environment:
+
+    ```terminal
+    python3 -m venv venv
+    ```
+
+3. Activate the virtual environment:
+
+    ```terminal
+    venv/scripts/activate
+    ```
+
+4. Install dependencies:
+
+    ```terminal
+    pip install -r requirements.txt
+    ```
+
+5. Run the app:
+
+    ```terminal
+    flask --app api/index.py run
+    ```
