@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    
     <title>Template</title>
 </head>
 <body>
@@ -15,11 +20,21 @@
     
     <div id="example_div">
 
-        <h1>
+        <h1 id="desktop-header">
             Very simple template using Flask and Vercel
         </h1>
 
-        <p>
+        <h1 id="mobile-header">
+            Flask + Vercel Template
+        </h1>
+
+        <p id="mobile-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <p id="desktop-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
