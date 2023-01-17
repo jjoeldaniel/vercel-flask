@@ -1,11 +1,25 @@
+body {
+    background-color: #b1afae;
+}
 #example_div {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    border: 3px solid green; 
+    flex-direction: column;
+    background-color: transparent;
+    height: 100vh;
+    margin: 0 auto; 
+    margin-top: 20vh;
+    border: none;
+    max-width: 800px;
+    color: white;
 }
-
 h1 {
-    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    align-self: center;
+}
+p {
+    font-size: 20px;
+    font-weight: lighter;
+    align-self: center;
+    margin-top: 30px;
 }
