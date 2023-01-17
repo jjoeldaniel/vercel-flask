@@ -11,6 +11,14 @@ p {
   font-family: "Noto Sans", serif;
 }
 
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover {
+transform: scale(1.1);
+}
+
 @media (min-width: 769px) {
   .mobile {
     display: none;
