@@ -18,6 +18,12 @@
 
 3. Activate the virtual environment:
 
+    Linux
+    ```terminal
+    source venv/bin/activate
+    ```
+    
+    Windows
     ```terminal
     venv/scripts/activate
     ```
